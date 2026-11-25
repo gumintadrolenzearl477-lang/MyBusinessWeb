@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | EARL PHOTOGRAPHY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">EARL PHOTOGRAPHY</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="packages.html">Packages</a>
+            <a href="booking.html" class="active">Booking</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Complete Your Booking</h1>
+
+        <div class="grid-2">
+            <div class="card">
+                <h3>Client Information</h3>
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Your Full Name" required>
+
+                    <label>Email Address</label>
+                    <input type="email" placeholder="your@email.com" required>
+
+                    <label>Contact Number</label>
+                    <input type="tel" placeholder="+63 9XX XXX XXXX" required>
+
+                    <label>Event / Session Date</label>
+                    <input type="date" required>
+
+                    <label>Location / Venue</label>
+                    <input type="text" placeholder="City or Address" required>
+
+                    <label>Special Notes / Requests</label>
+                    <textarea rows="4" placeholder="Tell us about your vision..."></textarea>
+                </form>
+            </div>
+
+            <div class="card">
+                <h3>Payment Summary</h3>
+                <p>Selected services as shown in cart.</p>
+                <p class="total" style="border:none; text-align:left; padding:0;">Total: ₱71,000</p>
+                <p style="color:#666; font-size:14px; margin:15px 0;">
+                    💳 Booking requires 50% downpayment to reserve slot.<br>
+                    Remaining balance due on event day.
+                </p>
+
+                <h4>Payment Method</h4>
+                <select>
+                    <option>GCash — Earl Photography</option>
+                    <option>Bank Transfer</option>
+                    <option>Cash / On-site Payment</option>
+                </select>
+
+                <button type="submit" class="btn" style="margin-top:15px;">Confirm Booking</button>
+                <p style="font-size:13px; color:#777; margin-top:15px; text-align:center;">
+                    By clicking, you agree to our Terms & Conditions.<br>
+                    We will contact you within 24 hours to finalize details.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
